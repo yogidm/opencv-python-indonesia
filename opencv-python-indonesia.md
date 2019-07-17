@@ -156,8 +156,8 @@ import cv2
 # Panggil citra digital dengan nama anu.jpeg
 img = cv2.imread("anu.jpeg", 0)
 
-imb = img.copy()
-imb[imb>100]=255
+imb = img.copy() # Buat duplikat dari variabel img
+imb[imb>100]=255 # Buat citra biner
 imb[imb<100]=0
 
 cv2.imshow ('Gambar', img)
@@ -171,6 +171,11 @@ elif k == ord('s'): # menunggu hingga tombol 's' ditekan dan simpan
     cv2.imwrite('burungBW.bmp',imb)
     cv2.destroyAllWindows()
 ```
-Maka tampilan hasil ketika sudah disimpan akan seperti berikut ini. 
+
+Apabila dijalankan maka akan muncul dua jendela gambar seperti berikut ini
+
+<img src="Gambar/Gambar_3.png">
+
+Apabila kita menekan tombol `s`, program akan menyimpan pada direktori seperti gambar berikut.
 
 <img src="Gambar/Gambar_2.png">

@@ -10,7 +10,7 @@ Pada tutorial ini, akan dijelaskan tentang beberapa dokumentasi mengenai dasar-d
     - [Apa saja kentungannya?](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--apa-saja-keuntungannya)
     - [Ayo mulai belajar!](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--ayo-mulai-belajar)
 2. [Instalasi OpenCV-Python](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#2-instalasi-opencv-python)
-    - [Instalasi pada Ubuntu](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--instalasi-pada-ubuntulinux
+    - [Instalasi pada Ubuntu](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--instalasi-pada-ubuntulinux)
     - [Instalasi pada Windows](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--instalasi-pada-windows)
     - [Tes Instalasi Kalian](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--test-instalasi-kalian)
 3. [Memulai Fitur GUI OpenCV](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#3-memulai-fitur-gui-pada-opencv)

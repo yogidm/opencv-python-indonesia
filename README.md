@@ -1,16 +1,15 @@
 # Dasar OpenCV
 
-OpenCV merupakan sebuah pustaka yang bersifat open source yang digunakan untuk berbagai pengolahan citra digital pada komputer. 
+OpenCV merupakan sebuah pustaka yang bersifat open source yang digunakan untuk berbagai pengolahan citra digital pada komputer.
 
 Pada tutorial ini, akan dijelaskan tentang beberapa dokumentasi mengenai dasar-dasar penggunaan dan fitur dari OpenCV menggunakan bahasa pemograman python. Oleh karenanya, daftar isinya adalah sebagai berikut:
 
-1. Yuk mengenal OpenCV Python
-    - Apa itu OpenCV
-    - OpenCV-Python
-    - Tentang tutorial ini
-    - Apa saja kentungannya?
-    - Ayo mulai belajar!
-2. Instalasi OpenCV-Python
+1. [Yuk mengenal OpenCV Python](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#1-yuk-mengenal-opencv-python)
+    - [OpenCV-Python](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--opencv-python)
+    - [Tentang tutorial ini](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--tentang-tutorial-ini)
+    - [Apa saja kentungannya?](#--apa-saja-keuntungannya)
+    - [Ayo mulai belajar!](#--ayo-mulai-belajar)
+2. [Instalasi OpenCV-Python](#2-instalasi-opencv-python)
     - Instalasi pada Ubuntu
     - Instalasi pada Windows
 3. Memulai Fitur GUI OpenCV

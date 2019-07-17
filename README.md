@@ -7,13 +7,14 @@ Pada tutorial ini, akan dijelaskan tentang beberapa dokumentasi mengenai dasar-d
 1. [Yuk mengenal OpenCV Python](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#1-yuk-mengenal-opencv-python)
     - [OpenCV-Python](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--opencv-python)
     - [Tentang tutorial ini](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--tentang-tutorial-ini)
-    - [Apa saja kentungannya?](#--apa-saja-keuntungannya)
-    - [Ayo mulai belajar!](#--ayo-mulai-belajar)
-2. [Instalasi OpenCV-Python](#2-instalasi-opencv-python)
-    - Instalasi pada Ubuntu
-    - Instalasi pada Windows
-3. Memulai Fitur GUI OpenCV
-    - Menggunakan Citra Digital
+    - [Apa saja kentungannya?](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--apa-saja-keuntungannya)
+    - [Ayo mulai belajar!](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--ayo-mulai-belajar)
+2. [Instalasi OpenCV-Python](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#2-instalasi-opencv-python)
+    - [Instalasi pada Ubuntu](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--instalasi-pada-ubuntulinux
+    - [Instalasi pada Windows](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--instalasi-pada-windows)
+    - [Tes Instalasi Kalian](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--test-instalasi-kalian)
+3. [Memulai Fitur GUI OpenCV](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#3-memulai-fitur-gui-pada-opencv)
+    - [Menggunakan Citra Digital](https://github.com/yogidm/opencv-python-indonesia/blob/master/opencv-python-indonesia.md#--menggunakan-citra-digital)
     - Menggunakan Video
     - Menggunakan Fungsi Drawing
     - Menggunakan Interaksi Tetikus

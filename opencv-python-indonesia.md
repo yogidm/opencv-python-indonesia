@@ -94,8 +94,15 @@ Nah, setelah instalasi kalian sukses, mari kita lanjutkan pada bab selanjutnya.
 
 # 3. Memulai Fitur GUI pada OpenCV
 
-## - Menggunakan Citra Digital
+## 3.1. Menggunakan Citra Digital
 
+```markdown
+Target:
+- Dapat membaca citra dari sebuah file citra digital
+- 
+```
+
+### - Membaca Citra Digital
 Citra digital dapat kita panggil pada proyek Python kita menggunakan fugnsi `c2.imread()`. Untuk pembacaan citra yang bisa dipanggil, hanya pada direktori yang sama dengan letak direktori dari dokumen Python itu disimpan. Jadi, jangan lupa memindah lokasi gambar yang akan digunakan pada folder yang sama dengan dokumen kalian ya... 
 
 Untuk isian dari `flag` kedua fungsi tersebut, dapat digunakan:
@@ -119,7 +126,7 @@ untuk gambar `anu.jpeg` , kita dapat menggunakan gambar berikut. Silahkan [unduh
 
 ketika dokumen tersebut sudah disimpan dengan satu direktori dengan gambar tersebut, apabila di `run` maka tidak akan ada tampilan gambar sama sekali hingga kita menampilkannya menggunakan fitur GUI dari OpenCV. 
 
-## - Menampilkan Citra Digital
+### - Menampilkan Citra Digital
 
 Menampilkan citra yang sudah dipanggil dan dirubah menjadi sebuah variabel, maka kita bisa menggunakan fungsi `cv2.imshow()` untuk menampilkan citra pada variabel tersebut. Untuk jendela untuk menampilkan citra, akan secara otomatis menyesuaikan dengan ukuran citranya. pada penulisan fungsinya, ada beberapa masukan, yaitu nama windownya dan diikuti dengan nama variabel yang berisikan citra yang akan ditampilkan. Coba kode berikut dibawah kode pembacaan citra digital diatas.
 
@@ -137,7 +144,7 @@ pada baris `cv2.waitKey(0)` merupakan sebuah fungsi untuk menahan frame atau cit
 
 pada baris `cv2.destroyAllWindows()` merupakan sebuah fungsi untuk menutup semua jendela yang aktif pada sebuah program yang berjalan. Biasanya kita bisa menggabungkan dengan perintah `jika tombol 'q' tertekan, maka tutup semua jendela` (seperti pada kode tes instalasi pada bab 2).
 
-## - Menyimpan gambar menjadi sebuah file
+### - Menyimpan gambar menjadi sebuah file
 
 Menyimpan gambar hasil pengolahan citra digital pada OpenCV dapat digunakan fungsi 
 `cv2.imwrite()`. Untuk nama file, kalian bisa menggunakan `.png` atau `.jpg` atau sesuai dengan kebutuhan kalian. Jika hasil citra kalian dalam bentuk citra biner, gunakan format `.bmp` untuk hasil yang lebih baik. File akan disimpan pada direktori yang sama dengan letak dokumen disimpan. 
@@ -146,7 +153,7 @@ Menyimpan gambar hasil pengolahan citra digital pada OpenCV dapat digunakan fung
 cv2.imwrite('burung.png',img)
 ```
 
-## - Gabungkan semua kodenya
+### - Gabungkan semua kodenya
 
 Kode diatas merupakan kepingan kode yang memanggil dan menampilkannya pada jendela menggunakan fitur GUI pada OpenCV. Mari kita gabungkan kesemuanya. 
 
@@ -179,3 +186,9 @@ Apabila dijalankan maka akan muncul dua jendela gambar seperti berikut ini
 Apabila kita menekan tombol `s`, program akan menyimpan pada direktori seperti gambar berikut.
 
 <img src="Gambar/Gambar_2.png">
+
+## 3.2. Menggunakan Video
+
+### - Membaca Video dari direktori lokal
+
+

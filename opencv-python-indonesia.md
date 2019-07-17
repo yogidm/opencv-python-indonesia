@@ -97,9 +97,11 @@ Nah, setelah instalasi kalian sukses, mari kita lanjutkan pada bab selanjutnya.
 ## 3.1. Menggunakan Citra Digital
 
 ```markdown
-Target:
+Target pembahasan:
 - Dapat membaca citra dari sebuah file citra digital
-- 
+- Dapat menulis citra hasil pengolahan
+- Menampilkan citra pada jendela menggunakan FItur GUI OpenCV
+- Menggunakan keyboard event
 ```
 
 ### - Membaca Citra Digital
@@ -189,6 +191,42 @@ Apabila kita menekan tombol `s`, program akan menyimpan pada direktori seperti g
 
 ## 3.2. Menggunakan Video
 
+```markdown
+Target pembelajaran:
+- Megetahui pembacaan video dari lokal direktori cv2.VideoCapture()
+- Mengetahui pembacaan video dari kamera
+- Mengetahui proses menyimpan video dari kamera cv2.VideoWriter()
+```
+
+Sebuah video biasanya sering disebut dengan image sequence atau citra digital yang urutan waktu atau juga dalam urutan frame. Biasanya pada tiap detik, sebuah video memiliki 24 atau 30 frame. Oleh karenanya, kita sering mendengar istilah `FPS` atau frame per secon. Nah, dari sini, sebuah pengolahan video identik dengan pengolahan citra, hanya saja citranya dalam jumlah yang banyak dan berurutan. Untuk mengolah sebuah video pada pembahasan ini, kita akan membutuhkan sebuah video. Kalian bisa mengunduhnya pada tautan berikut (1MB) dengan format `.mp4` dengan `31 fps` seperti gambar di bawah ini. 
+
+<img src="Gambar/Gambar_6.png">
+
 ### - Membaca Video dari direktori lokal
 
+Membaca sebuah video dari direktori lokal merupakan sebuah fungsi yang biasanya kita memasukkan videonya pada lokasi yang sama dengan dokumen python kita (sama dengan pembacaan citra pada bab 3.1). Hanya saja pada pembacaan video, perintahnya yang berbeda. Perintah atau fungsi tersebut adalah `cv2.VideoCapture()`. Pada fungsi ini, kita diberikan dua pilihan masukan. Angka untuk masukan dari webcam dan string untuk masukan dari file. Semisal pada pembacaan video dari lokal direktori, kita dapat menggunakan perintah berikut: `cv2.VideoCapture('video_ori.mp4')`. Dari pembacaan video tersebut, kita juga membutuhkan sebuah perulangan untuk membaca video untuk semua frame yang ada di video tersebut. 
 
+Dalam hal ini kita menggunakan `while` ketika video sedang dibuka/dibaca. Selama video terbaca, maka lakukan pengolahan citra pada tiap frame nya dan kita juga bisa menampilkan kondisi dari pengolahan citranya secara langsung. Untuk dapat menahan hasil pengolahan tiap frame nya, kita juga membutuhkan fungsi `cv2.waitKey()` seperti pada pembahasan bab 3.1, namun pada pembacaan video, nilai tunggunya tidak boleh bernilai 0 atau diam. Coba amati kode berikut:
+
+```python
+import cv2 # Masukkan pustaka OpenCV
+
+# Membaca file video dan masukkan pada variabel
+cap = cv2.VideoCapture('video_ori.mp4')
+
+while(cap.isOpened()): # lakukan pembacaan pada semua frame
+    ret, frame = cap.read() #frame siap untuk diolah
+
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+    # Tampilkan frame
+    cv2.imshow('Frame Ori',frame)
+    cv2.imshow('Frame Gray',gray)
+
+    # Tahan frame selama 1ms
+    if cv2.waitKey(1) & 0xFF == ord('q'): 
+        break
+# Lepas capture dan tutup semua jendela
+cap.release()
+cv2.destroyAllWindows()
+```

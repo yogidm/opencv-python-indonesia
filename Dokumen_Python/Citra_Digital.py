@@ -2,6 +2,7 @@ import cv2
 
 # Panggil citra digital dengan nama anu.jpeg
 img = cv2.imread("anu.jpeg", 0)
+
 imb = img.copy()
 imb[imb>100]=255
 imb[imb<100]=0

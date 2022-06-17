@@ -1,7 +1,7 @@
 import cv2 # Masukkan pustaka OpenCV
 
 # Membaca file video dan masukkan pada variabel
-cap = cv2.VideoCapture('video_ori.mp4')
+cap = cv2.VideoCapture(0)
 
 while(cap.isOpened()): # lakukan pembacaan pada semua frame
     ret, frame = cap.read() #frame siap untuk diolah

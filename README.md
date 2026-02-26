@@ -66,3 +66,4 @@ Pada tutorial ini, akan dijelaskan tentang beberapa dokumentasi mengenai dasar-d
     
     
 `update : 17 Juli 2019`
+Testing sync VS Code

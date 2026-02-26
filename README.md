@@ -1,4 +1,129 @@
-# Dasar OpenCV
+# OpenCV Python Indonesia
+
+Repositori ini merupakan materi pembelajaran **Computer Vision menggunakan OpenCV (Python)** yang disusun secara sistematis untuk mahasiswa teknik dan praktisi.
+
+Materi disusun dari konsep dasar hingga topik lanjutan dengan pendekatan:
+
+- Teori matematis yang kuat
+- Implementasi Python yang self-contained
+- Visualisasi before–after bersandingan
+- Analisis engineering mendalam
+- Studi kasus lapangan
+
+---
+
+# 📚 Daftar Isi
+
+## 1️⃣ Getting Started
+- [Pengenalan OpenCV](01_getting_started/01_pengenalan_opencv.md)
+- [Instalasi OpenCV Python](01_getting_started/02_instalasi_opencv_python.md)
+
+---
+
+## 2️⃣ GUI dan Input
+- [GUI Dasar](02_gui_dan_input/01_gui_dasar.md)
+- [Mouse dan Trackbar](02_gui_dan_input/02_mouse_dan_trackbar.md)
+
+---
+
+## 3️⃣ Image Processing
+
+- [Operasi Dasar Citra](03_image_processing/01_operasi_dasar_citra.md)
+- [Transformasi Geometris](03_image_processing/02_transformasi_geometris.md)
+- [Pengambangan Citra (Thresholding)](03_image_processing/03_pengambangan_citra.md)
+- [Penghalusan Citra (Smoothing)](03_image_processing/04_penghalusan_citra.md)
+- [Morfologi Citra](03_image_processing/05_morfologi.md)
+
+---
+
+## 4️⃣ Advanced Processing
+*(Coming Soon)*
+
+---
+
+## 5️⃣ Feature Detection
+*(Coming Soon)*
+
+---
+
+## 6️⃣ Video Analysis
+*(Coming Soon)*
+
+---
+
+## 7️⃣ 3D Vision
+*(Coming Soon)*
+
+---
+
+## 8️⃣ Object Detection
+*(Coming Soon)*
+
+---
+
+# 🧠 Filosofi Materi
+
+Materi ini tidak hanya mengajarkan penggunaan fungsi OpenCV, tetapi:
+
+- Representasi matematis citra
+- Distribusi intensitas dan histogram
+- Separability dan variansi antar kelas
+- Operasi morfologi berbasis teori himpunan
+- Transformasi homogen dan warping
+- Analisis topologi objek
+
+Tujuannya adalah membentuk pemahaman konseptual yang kuat, bukan sekadar pengguna library.
+
+---
+
+# ⚙️ Prasyarat
+
+- Python 3.x
+- OpenCV (`pip install opencv-python`)
+- NumPy
+- scikit-image (untuk Sauvola)
+
+---
+
+# 🧪 Format Kode
+
+Semua contoh:
+
+- Self-contained
+- Dapat langsung dijalankan
+- Menggunakan visualisasi bersandingan
+- Tidak bergantung pada variabel sebelumnya
+
+---
+
+# 📌 Target Pembaca
+
+- Mahasiswa Teknik Informatika
+- Mahasiswa Teknik Elektro
+- Peneliti Computer Vision
+- Praktisi sistem vision industri
+
+---
+
+# 🚀 Roadmap
+
+- Edge detection
+- Frequency domain filtering
+- Feature extraction (SIFT, ORB)
+- Camera calibration
+- Homography dan epipolar geometry
+- Deep learning integration
+
+---
+
+# 📜 Lisensi
+
+Open-source untuk pembelajaran dan pengembangan akademik.
+
+
+
+------------
+# (lawas) Dasar OpenCV
 
 OpenCV merupakan sebuah pustaka yang bersifat open source yang digunakan untuk berbagai pengolahan citra digital pada komputer.
 

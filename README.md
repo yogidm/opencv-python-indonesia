@@ -4,11 +4,11 @@ Repositori ini merupakan materi pembelajaran **Computer Vision menggunakan OpenC
 
 Materi disusun dari konsep dasar hingga topik lanjutan dengan pendekatan:
 
-- Teori matematis yang kuat
-- Implementasi Python yang self-contained
-- Visualisasi before–after bersandingan
-- Analisis engineering mendalam
-- Studi kasus lapangan
+- Teori matematis yang kuat  
+- Implementasi Python yang self-contained  
+- Visualisasi before–after bersandingan  
+- Analisis engineering mendalam  
+- Studi kasus lapangan  
 
 ---
 
@@ -27,50 +27,56 @@ Materi disusun dari konsep dasar hingga topik lanjutan dengan pendekatan:
 ---
 
 ## 3️⃣ Image Processing
-
 - [Operasi Dasar Citra](03_image_processing/01_operasi_dasar_citra.md)
 - [Transformasi Geometris](03_image_processing/02_transformasi_geometris.md)
-- [Pengambangan Citra (Thresholding)](03_image_processing/03_pengambangan_citra.md)
-- [Penghalusan Citra (Smoothing)](03_image_processing/04_penghalusan_citra.md)
+- [Penggambaran Citra](03_image_processing/03_penggambaran_citra.md)
+- [Penghalusan Citra](03_image_processing/04_penghalusan_citra.md)
 - [Morfologi Citra](03_image_processing/05_morfologi.md)
+- [Deteksi Tepi](03_image_processing/06_deteksi_tepi.md)
+- [Histogram dan Equalisasi](03_image_processing/07_histogram_dan_equalisasi.md)
+- [Frequency Domain](03_image_processing/08_frequency_domain.md)
+- [Discrete Wavelet Transform](03_image_processing/09_discrete_wavelet_transform.md)
 
 ---
 
 ## 4️⃣ Advanced Processing
-*(Coming Soon)*
+- [Contour Analysis](04_advanced_processing/01_contour_analysis.md)
+- [Shape Descriptor](04_advanced_processing/02_shape_descriptor.md)
+- [Hough Transform](04_advanced_processing/03_hough_transform.md)
+- [Image Registration](04_advanced_processing/04_image_registration.md)
 
 ---
 
 ## 5️⃣ Feature Detection
-*(Coming Soon)*
+*(Dalam pengembangan)*
 
 ---
 
 ## 6️⃣ Video Analysis
-*(Coming Soon)*
+*(Dalam pengembangan)*
 
 ---
 
 ## 7️⃣ 3D Vision
-*(Coming Soon)*
+*(Dalam pengembangan)*
 
 ---
 
 ## 8️⃣ Object Detection
-*(Coming Soon)*
+*(Dalam pengembangan)*
 
 ---
 
 # 🧠 Filosofi Materi
 
-Materi ini tidak hanya mengajarkan penggunaan fungsi OpenCV, tetapi:
+Materi ini tidak hanya mengajarkan penggunaan fungsi OpenCV, tetapi juga menekankan:
 
-- Representasi matematis citra
-- Distribusi intensitas dan histogram
-- Separability dan variansi antar kelas
-- Operasi morfologi berbasis teori himpunan
-- Transformasi homogen dan warping
-- Analisis topologi objek
+- Representasi matematis citra  
+- Distribusi intensitas dan histogram  
+- Separability dan variansi antar kelas  
+- Operasi morfologi berbasis teori himpunan  
+- Transformasi homogen dan warping  
+- Analisis topologi objek  
 
 Tujuannya adalah membentuk pemahaman konseptual yang kuat, bukan sekadar pengguna library.
 
@@ -78,47 +84,61 @@ Tujuannya adalah membentuk pemahaman konseptual yang kuat, bukan sekadar penggun
 
 # ⚙️ Prasyarat
 
-- Python 3.x
-- OpenCV (`pip install opencv-python`)
-- NumPy
-- scikit-image (untuk Sauvola)
+- Python 3.x  
+- OpenCV → `pip install opencv-python`  
+- NumPy  
+- scikit-image (opsional, untuk metode tertentu)
 
 ---
 
 # 🧪 Format Kode
 
-Semua contoh:
+Semua contoh dalam repositori ini:
 
-- Self-contained
-- Dapat langsung dijalankan
-- Menggunakan visualisasi bersandingan
-- Tidak bergantung pada variabel sebelumnya
+- Self-contained  
+- Dapat langsung dijalankan  
+- Menggunakan visualisasi bersandingan  
+- Tidak bergantung pada variabel sebelumnya  
 
 ---
 
 # 📌 Target Pembaca
 
-- Mahasiswa Teknik Informatika
-- Mahasiswa Teknik Elektro
-- Peneliti Computer Vision
-- Praktisi sistem vision industri
+- Mahasiswa Teknik Informatika  
+- Mahasiswa Teknik Elektro  
+- Peneliti Computer Vision  
+- Praktisi sistem vision industri  
 
 ---
 
 # 🚀 Roadmap
 
-- Edge detection
-- Frequency domain filtering
-- Feature extraction (SIFT, ORB)
-- Camera calibration
-- Homography dan epipolar geometry
-- Deep learning integration
+Topik yang akan terus dikembangkan:
+
+- Feature extraction lanjutan (SIFT, ORB)  
+- Camera calibration  
+- Homography dan epipolar geometry  
+- Video tracking  
+- Deep learning integration  
 
 ---
 
 # 📜 Lisensi
 
 Open-source untuk pembelajaran dan pengembangan akademik.
+
+---
+
+# 🗂️ Arsip Dokumentasi Lama
+
+Dokumentasi generasi awal masih tersedia di:
+
+- [Dasar OpenCV (versi lama)](opencv-python-indonesia.md)
+
+`update: maintained actively`
+
+
+
 
 
 
